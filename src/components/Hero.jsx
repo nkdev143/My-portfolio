@@ -83,7 +83,11 @@ const Hero = () => {
           transition={{ duration: 0.8, ease: 'easeOut', delay: 0.15 }}
         >
           <div className="hero__avatar-ring">
-          <img src="/nk.png" alt="Profile portrait" />
+        <img
+              className="hero__avatar"
+              src="/nk.png"
+              alt="Profile portrait"
+            />
           </div>
 
 
