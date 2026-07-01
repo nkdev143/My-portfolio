@@ -2,7 +2,6 @@ import { motion } from 'framer-motion';
 import { FiArrowDown, FiDownload } from 'react-icons/fi';
 import { useTypingEffect } from '../hooks/useTypingEffect';
 import TerminalAnimation from './TerminalAnimation';
-import profile from "../asset/nk.png";
 import './Hero.css';
 
 const titles = [
@@ -84,11 +83,7 @@ const Hero = () => {
           transition={{ duration: 0.8, ease: 'easeOut', delay: 0.15 }}
         >
           <div className="hero__avatar-ring">
-            <img
-              className="hero__avatar"
-              src="src/asset/nk.png"
-              alt="Profile portrait"
-            />
+          <img src="/nk.png" alt="Profile portrait" />
           </div>
 
 
