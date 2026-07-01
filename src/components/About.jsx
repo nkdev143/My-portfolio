@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { FiCode, FiCpu, FiZap } from 'react-icons/fi';
 import SectionTitle from './SectionTitle';
+import profile from "../asset/dev.jpeg";
 import './About.css';
 
 const highlights = [

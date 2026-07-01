@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { FiArrowDown, FiDownload } from 'react-icons/fi';
 import { useTypingEffect } from '../hooks/useTypingEffect';
 import TerminalAnimation from './TerminalAnimation';
+import profile from "../asset/nk.png";
 import './Hero.css';
 
 const titles = [
