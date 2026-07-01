@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { FiCode, FiCpu, FiZap } from 'react-icons/fi';
 import SectionTitle from './SectionTitle';
-import profile from "../asset/dev.jpeg";
+
 import './About.css';
 
 const highlights = [
@@ -22,10 +22,7 @@ const About = () => {
           transition={{ duration: 0.7 }}
         >
           <div className="about__card glass">
-            <img
-              src="src/asset/dev.jpeg"
-              alt="Developer working illustration"
-            />
+          <img src="/dev.jpeg" alt="Profile portrait" />
           </div>
           <div className="about__badge">
             <strong>3+</strong>
